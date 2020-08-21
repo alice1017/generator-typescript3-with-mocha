@@ -1,0 +1,11 @@
+{
+  "recursive": true,
+  "require": [
+    "espower-typescript/guess"
+  ],
+  "reporter": "spec",
+  "timeout": "50000",
+  "extension": [
+    "ts"
+  ]
+}

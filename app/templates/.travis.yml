@@ -1,0 +1,11 @@
+language: node_js
+node_js:
+  - 14
+dist: trusty
+before_install:
+  - yarn add -D coveralls
+install:
+  - yarn install
+script:
+  - yarn coverage
+  - yarn report --reporter=text-lcov | yarn coveralls
