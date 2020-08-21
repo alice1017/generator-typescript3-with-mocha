@@ -13,7 +13,7 @@ const templateFiles = [
   "src/index.ts",
   "test/index.test.ts",
   "tsconfig.json"
-]
+];
 
 export default class TypescriptProjectGenerator extends Generator {
 
