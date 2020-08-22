@@ -1,7 +1,7 @@
 {
   "name": "generator-typescript3-with-mocha",
   "description": "A yeoman generator to create a typescript project with mocha.",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "main": "app/index.js",
   "license": "MIT",
   "scripts": {
